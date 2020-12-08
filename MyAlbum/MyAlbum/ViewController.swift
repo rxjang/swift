@@ -19,12 +19,5 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-
-    @IBAction func showAlert2(_ sender: Any) {
-        let alert=UIAlertController(title: "Task", message: "This is for task.", preferredStyle: .alert)
-        let action=UIAlertAction(title: "SUCCESS!", style: .default, handler: nil)
-        alert.addAction(action)
-        present(alert, animated: true, completion: nil)
-    }
 }
 
